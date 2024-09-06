@@ -35,7 +35,7 @@ const UserDetails = () => {
                 <strong>Phone:</strong> {user.phone}
               </Card.Text>
               <Card.Text>
-                <strong>Address:</strong> {user.address.street},  {user.address.suite} {user.address.city}, {user.address.zipcode}
+                <strong>Address:</strong> {user.address.street},  {user.address.suite}, {user.address.city}, {user.address.zipcode}
               </Card.Text>
               <Card.Text>
                 <strong>Website:</strong> {user.website}
